@@ -760,7 +760,7 @@
   resolved "https://registry.yarnpkg.com/@poppinss/exception/-/exception-1.2.2.tgz#8d30d42e126c54fe84e997433e4dcac610090743"
   integrity sha512-m7bpKCD4QMlFCjA/nKTs23fuvoVFoA83brRKmObCUNmi/9tVu8Ve3w4YQAnJu4q3Tjf5fr685HYIC/IA2zHRSg==
 
-"@prisma/client@^6.16.3", "@prisma/client@^6.17.0":
+"@prisma/client@^6.17.0":
   version "6.17.0"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-6.17.0.tgz#320e2e0b2fdc8a6b870e06197876ff2bebdcb1db"
   integrity sha512-b42mTLOdLEZ6e/igu8CLdccAUX9AwHknQQ1+pHOftnzDP2QoyZyFvcANqSLs5ockimFKJnV7Ljf+qrhNYf6oAg==
@@ -3633,7 +3633,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prisma@^6.16.3, prisma@^6.17.0:
+prisma@^6.17.0:
   version "6.17.0"
   resolved "https://registry.yarnpkg.com/prisma/-/prisma-6.17.0.tgz#2f822ec55786d3b2237b1e92d1e7e14d4dbc2769"
   integrity sha512-rcvldz98r+2bVCs0MldQCBaaVJRCj9Ew4IqphLATF89OJcSzwRQpwnKXR+W2+2VjK7/o2x3ffu5+2N3Muu6Dbw==
