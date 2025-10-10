@@ -1,5 +1,6 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import routeShifts from "./routes/shifts";
 
 const app = new Hono();
 
@@ -13,8 +14,6 @@ app.use(
   })
 );
 
-app.get("/", (c) => {
-  return c.text("Hello Hono!");
-});
+app.route("/shifts", routeShifts);
 
 export default app;

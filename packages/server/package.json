@@ -3,19 +3,21 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify",
+    "deploy": "yarn prisma generate && wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
+    "@prisma/adapter-neon": "^6.17.0",
     "@prisma/client": "^6.17.0",
     "@prisma/extension-accelerate": "^2.0.2",
+    "dotenv": "^17.2.3",
     "hono": "^4.9.10",
     "prisma": "^6.17.0",
     "types": "workspace:*"
   },
   "devDependencies": {
-    "wrangler": "^4.4.0"
+    "wrangler": "^4.42.2"
   },
   "version": "1.0.0",
   "main": "src/index.ts",

@@ -13,3 +13,16 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+
+model Shift {
+  shiftId String @id @default(cuid()) @map("id")
+  shiftCompanyName  String @unique @map("company_name")
+  shiftCompanyLocation String @map("company_location")
+  shiftStartsFrom DateTime @map("starts_from")
+  shiftEndsAt DateTime @map("ends_at")
+  shiftCreatedAt DateTime @default(now()) @map("created_at")
+  shiftUpdatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("shifts")
+}
