@@ -10,7 +10,8 @@
   "author": "Sanjay Kumar Kumaravelan <sanjaykumarkumaravelan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"yarn workspace web dev\" \"yarn workspace server dev\""
+    "dev": "concurrently \"yarn workspace web dev\" \"yarn workspace server dev\"",
+    "prisma": "yarn workspace server prisma generate"
   },
   "devDependencies": {
     "concurrently": "^7.0.0"
