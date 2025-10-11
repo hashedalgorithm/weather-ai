@@ -3,7 +3,6 @@
 
 // Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
   output   = "../src/generated/prisma"
@@ -16,7 +15,7 @@ datasource db {
 
 
 model Shift {
-  shiftId String @id @default(cuid()) @map("id")
+  shiftId Int @id @default(autoincrement()) @map("id")
   shiftCompanyName  String @unique @map("company_name")
   shiftCompanyLocation String @map("company_location")
   shiftStartsFrom DateTime @map("starts_from")
