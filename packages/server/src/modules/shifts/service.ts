@@ -1,5 +1,5 @@
-import type { Prisma, Shift } from '../../generated/prisma/index.d.ts';
-import { PrismaClient } from '../../generated/prisma/index.js';
+import type { Prisma, Shift } from 'types';
+import { PrismaClient } from 'types';
 
 class ShiftService {
   private prismaClient = new PrismaClient();

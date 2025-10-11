@@ -1,5 +1,5 @@
 import { type Request, type Response } from 'express';
-import type { Prisma } from '../../generated/prisma/index.d.ts';
+import type { Prisma } from 'types';
 import ShiftService from './service.ts';
 
 class ShiftController {
