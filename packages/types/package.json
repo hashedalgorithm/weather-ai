@@ -1,7 +1,8 @@
 {
   "name": "types",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.d.ts",
   "author": "Sanjay Kumar Kumaravelan",
   "license": "MIT",
   "devDependencies": {
