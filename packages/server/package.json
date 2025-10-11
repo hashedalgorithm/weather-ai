@@ -5,13 +5,12 @@
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@neondatabase/serverless": "^1.0.2",
     "@prisma/client": "^6.17.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "prisma": "^6.17.0",
+    "prisma": "^6.17.1",
     "types": "workspace:*"
   },
   "devDependencies": {
