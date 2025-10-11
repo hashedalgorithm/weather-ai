@@ -1,5 +1,5 @@
-import app from './app.js';
+import expressApp from './app.ts';
 
-app.listen(4000, () => {
+expressApp.listen(4000, () => {
   console.log('Server listening on http://localhost:4000...');
 });

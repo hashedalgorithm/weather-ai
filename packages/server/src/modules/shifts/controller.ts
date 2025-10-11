@@ -1,6 +1,6 @@
-import { Request, Response } from 'express';
-import { Prisma } from '../../generated/prisma';
-import ShiftService from './service';
+import { type Request, type Response } from 'express';
+import type { Prisma } from '../../generated/prisma/index.d.ts';
+import ShiftService from './service.ts';
 
 class ShiftController {
   private service: ShiftService;

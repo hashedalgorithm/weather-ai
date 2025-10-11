@@ -1,9 +1,12 @@
-import express from 'express';
 import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import express from 'express';
+import loadRoutes from './loaders/routes.ts';
 
-const app = express();
+dotenv.config();
+const expressApp = express();
 
-app.use(bodyParser.json());
-loadRoutes(app);
+expressApp.use(bodyParser.json());
+loadRoutes(expressApp);
 
-export default app;
+export default expressApp;

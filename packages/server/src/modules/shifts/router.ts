@@ -1,5 +1,5 @@
 import express from 'express';
-import ShiftController from './controller';
+import ShiftController from './controller.ts';
 
 class ShiftRouter {
   private controller: ShiftController;

@@ -1,7 +1,8 @@
-import shiftsModule from '../modules/shifts/user.module.js';
+import ShiftModule from '../modules/shifts/module.ts';
+import { type Express } from 'express';
 
 const loadRoutes = (app: Express) => {
-  app.use('/shifts', userModule.router);
+  app.use('/shifts', ShiftModule.router);
 };
 
 export default loadRoutes;
