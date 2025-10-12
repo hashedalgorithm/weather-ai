@@ -1,6 +1,6 @@
-import ShiftController from './controller.ts';
-import ShiftService from './service.ts';
-import ShiftRouter from './router.ts';
+import ShiftController from './controller.js';
+import ShiftService from './service.js';
+import ShiftRouter from './router.js';
 
 const service = new ShiftService();
 const controller = new ShiftController(service);

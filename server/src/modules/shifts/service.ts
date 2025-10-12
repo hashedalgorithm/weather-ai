@@ -1,5 +1,5 @@
 import type { Prisma, Shift } from 'types';
-import { PrismaClient } from 'types';
+import { PrismaClient } from '@workspace/prisma-client';
 
 class ShiftService {
   private prismaClient = new PrismaClient();

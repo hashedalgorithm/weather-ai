@@ -1,4 +1,4 @@
-import ShiftModule from '../modules/shifts/module.ts';
+import ShiftModule from '../modules/shifts/module.js';
 import { type Express } from 'express';
 
 const loadRoutes = (app: Express) => {
