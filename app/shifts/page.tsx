@@ -1,7 +1,6 @@
 import ShiftCard from "@/containers/shift-card";
+import { Shift } from "@/types/generated/prisma";
 import { withBaseURL } from "@/lib/utils";
-import React from "react";
-import { Shift } from "types";
 
 const ShiftsPage = async () => {
   const raw = await fetch(withBaseURL("/shifts"), { method: "GET" });
